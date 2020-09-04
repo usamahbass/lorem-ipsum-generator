@@ -1,0 +1,87 @@
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #ff8a00, #e52e71);
+  border-radius: 30px;
+  box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, 0.25),
+    inset -2px -2px 2px rgba(0, 0, 0, 0.25);
+}
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(90deg, #201c29, #201c29 1px, #100e17 0, #100e17);
+}
+
+.card::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #08061f;
+  border-radius: 10px;
+}
+
+.card::-webkit-scrollbar {
+  width: 10px;
+  background-color: #08061f;
+  border-radius: 10px;
+}
+
+.card::-webkit-scrollbar-thumb {
+  background-color: #0f0c3e;
+  border-radius: 10px;
+}
+
+body {
+  background-color: #17141d;
+}
+
+code {
+  color: #ffffff;
+}
+
+p,
+label {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+pre code {
+  font-size: 12px !important;
+  color: #ffffff;
+}
+
+.badge {
+  cursor: pointer;
+}
+
+.btn-danger,
+.bg-danger {
+  background: linear-gradient(90deg, #ff8a00, #e52e71);
+}
+
+.card.dark {
+  background: #08061f !important;
+}
+
+.card.card-input {
+  height: 500px;
+}
+
+.card-body.card-input-body {
+  height: 100%;
+  overflow: auto;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem #ff8a00;
+}
+
+.section-heading {
+  font-size: 40px;
+  line-height: 1em;
+  margin-bottom: 20px;
+  margin-top: 0;
+  padding-bottom: 5px;
+  position: relative;
+  color: #223555;
+}
